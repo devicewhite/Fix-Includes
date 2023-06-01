@@ -100,7 +100,7 @@ native Float:GetSVarFloat(const varname[]);
 native DeleteSVar(const varname[]);
 
 // SVar enumeration
-#define	SERVER_VARTYPE_NONE			0
+#define SERVER_VARTYPE_NONE			0
 #define SERVER_VARTYPE_INT			1
 #define SERVER_VARTYPE_STRING		2
 #define SERVER_VARTYPE_FLOAT		3
