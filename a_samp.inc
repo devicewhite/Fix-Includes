@@ -41,22 +41,15 @@
 #define MAX_PICKUPS			  (0x1000)
 
 // Invalids constants
+#define INVALID_GANG_ZONE		(-0x1)
 #define NO_TEAM				  (0xFF)
-#define INVALID_PLAYER_ID						(0xFFFF)
-#define INVALID_VEHICLE_ID						(0xFFFF)
-#define INVALID_ACTOR_ID						(0xFFFF)
-
-
-#define INVALID_OBJECT_ID						(0xFFFF)
-
-
-
-
-
-#define INVALID_MENU							(0xFF)
-#define INVALID_TEXT_DRAW						(Textdraw:0xFFFF)
-#define INVALID_GANG_ZONE						(-1)
-#define INVALID_3DTEXT_ID						(Label:0xFFFF)
+#define INVALID_MENU			 (0xFF)
+#define INVALID_PLAYER_ID		(0xFFFF)
+#define INVALID_VEHICLE_ID	   (0xFFFF)
+#define INVALID_ACTOR_ID		 (0xFFFF)
+#define INVALID_OBJECT_ID		(0xFFFF)
+#define INVALID_3DTEXT_ID		(Label:0xFFFF)
+#define INVALID_TEXT_DRAW		(Textdraw:0xFFFF)
 
 // --------------------------------------------------
 // Natives
