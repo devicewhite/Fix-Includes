@@ -48,8 +48,8 @@
 #define INVALID_VEHICLE_ID	   (0xFFFF)
 #define INVALID_ACTOR_ID		 (0xFFFF)
 #define INVALID_OBJECT_ID		(0xFFFF)
-#define INVALID_TEXT_DRAW		(Text:0xFFFF)
-#define INVALID_3DTEXT_ID		(Text3D:0xFFFF)
+#define INVALID_TEXT_DRAW		(0xFFFF)
+#define INVALID_3DTEXT_ID		(0xFFFF)
 
 // Supress mismatch tags
 #define PlayerText Text
