@@ -27,24 +27,25 @@
 #include <a_sampdb>
 
 // Limits constants
-#define MAX_TEXT_DRAWS		   (2048)
-#define MAX_PLAYER_NAME		  (24)
-#define MAX_MENUS				(128)
-#define MAX_PLAYER_TEXT_DRAWS	(256)
-#define MAX_ACTORS			   (1000)
-#define MAX_OBJECTS			  (1000)
-#define MAX_PLAYERS			  (1000)
-#define MAX_3DTEXT_GLOBAL		(1024)
-#define MAX_3DTEXT_PLAYER		(1024)
-#define MAX_GANG_ZONES		   (1024)
-#define MAX_VEHICLES			 (2000)
-#define MAX_PICKUPS			  (4096)
+#define MAX_PLAYER_NAME		  (0x18)
+#define MAX_MENUS				(0x80)
+#define MAX_PLAYER_TEXT_DRAWS	(0x100)
+#define MAX_ACTORS			   (0x3E8)
+#define MAX_OBJECTS			  (0x3E8)
+#define MAX_PLAYERS			  (0x3E8)
+#define MAX_3DTEXT_GLOBAL		(0x400)
+#define MAX_3DTEXT_PLAYER		(0x400)
+#define MAX_GANG_ZONES		   (0x400)
+#define MAX_VEHICLES			 (0x7D0)
+#define MAX_TEXT_DRAWS		   (0x800)
+#define MAX_PICKUPS			  (0x1000)
 
 // Invalids constants
+#define NO_TEAM				  (0xFF)
 #define INVALID_PLAYER_ID						(0xFFFF)
 #define INVALID_VEHICLE_ID						(0xFFFF)
 #define INVALID_ACTOR_ID						(0xFFFF)
-#define NO_TEAM									(0xFF)
+
 
 #define INVALID_OBJECT_ID						(0xFFFF)
 
