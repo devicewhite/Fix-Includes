@@ -26,28 +26,36 @@
 #include <a_actor>
 #include <a_sampdb>
 
-// Limits and internal constants
-#define MAX_PLAYER_NAME							(24)
-#define MAX_PLAYERS								(1000)
-#define MAX_VEHICLES							(2000)
-#define MAX_ACTORS								(1000)
+// Limits constants
+#define MAX_TEXT_DRAWS		   (2048)
+#define MAX_PLAYER_NAME		  (24)
+#define MAX_MENUS				(128)
+#define MAX_PLAYER_TEXT_DRAWS	(256)
+#define MAX_ACTORS			   (1000)
+#define MAX_OBJECTS			  (1000)
+#define MAX_PLAYERS			  (1000)
+#define MAX_3DTEXT_GLOBAL		(1024)
+#define MAX_3DTEXT_PLAYER		(1024)
+#define MAX_GANG_ZONES		   (1024)
+#define MAX_VEHICLES			 (2000)
+#define MAX_PICKUPS			  (4096)
+
+// Invalids constants
 #define INVALID_PLAYER_ID						(0xFFFF)
 #define INVALID_VEHICLE_ID						(0xFFFF)
 #define INVALID_ACTOR_ID						(0xFFFF)
-#define NO_TEAM									(255)
-#define MAX_OBJECTS								(1000)
+#define NO_TEAM									(0xFF)
+
 #define INVALID_OBJECT_ID						(0xFFFF)
-#define MAX_GANG_ZONES							(1024)
-#define MAX_TEXT_DRAWS							(2048)
-#define MAX_PLAYER_TEXT_DRAWS					(256)
-#define MAX_MENUS								(128)
-#define MAX_3DTEXT_GLOBAL						(1024)
-#define MAX_3DTEXT_PLAYER						(1024)
-#define MAX_PICKUPS								(4096)
+
+
+
+
+
 #define INVALID_MENU							(0xFF)
-#define INVALID_TEXT_DRAW						(0xFFFF)
+#define INVALID_TEXT_DRAW						(Textdraw:0xFFFF)
 #define INVALID_GANG_ZONE						(-1)
-#define INVALID_3DTEXT_ID						(0xFFFF)
+#define INVALID_3DTEXT_ID						(Label:0xFFFF)
 
 // --------------------------------------------------
 // Natives
