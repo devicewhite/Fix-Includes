@@ -51,10 +51,6 @@
 #define INVALID_TEXT_DRAW		(0xFFFF)
 #define INVALID_3DTEXT_ID		(0xFFFF)
 
-// Supress mismatch tags
-#define PlayerText Text
-#define PlayerText3D Text3D
-
 // --------------------------------------------------
 // Natives
 // --------------------------------------------------
