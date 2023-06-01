@@ -99,11 +99,13 @@ native SetSVarFloat(const varname[], Float:float_value);
 native Float:GetSVarFloat(const varname[]);
 native DeleteSVar(const varname[]);
 
-// SVar enumeration
-#define SERVER_VARTYPE_NONE			0
-#define SERVER_VARTYPE_INT			1
-#define SERVER_VARTYPE_STRING		2
-#define SERVER_VARTYPE_FLOAT		3
+enum // SVar enumeration
+{
+	SERVER_VARTYPE_NONE,
+	SERVER_VARTYPE_INT,
+	SERVER_VARTYPE_STRING,
+	SERVER_VARTYPE_FLOAT
+};
 
 native GetSVarsUpperIndex();
 native GetSVarNameAtIndex(index, ret_varname[], ret_len);
@@ -124,7 +126,6 @@ native ShowPlayerMarkers(mode);
 native GameModeExit();
 native SetWorldTime(hour);
 native GetWeaponName(weaponid, weapon[], len);
-native EnableTirePopping(enable); // deprecated function
 native EnableVehicleFriendlyFire();
 native AllowInteriorWeapons(allow);
 native SetWeather(weatherid);
