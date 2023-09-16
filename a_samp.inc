@@ -49,7 +49,7 @@
 #define INVALID_ACTOR_ID		 (0xFFFF)
 #define INVALID_OBJECT_ID		(0xFFFF)
 #define INVALID_TEXT_DRAW		(Text:0xFFFF)
-#define INVALID_PLAYER_TEXT_DRAW		(PlayerText:0xFFFF)
+#define INVALID_PLAYER_TEXT_DRAW (PlayerText:0xFFFF)
 #define INVALID_3DTEXT_ID		(Text3D:0xFFFF)
 
 // --------------------------------------------------
